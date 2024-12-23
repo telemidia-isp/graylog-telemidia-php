@@ -1,0 +1,20 @@
+{
+    "name": "telemidia/graylog",
+    "description": "Este pacote fornece uma interface simples e eficiente para enviar mensagens de log para o Graylog, seguindo o padrão utilizado pela Telemidia.",
+    "type": "library",
+    "require": {
+        "graylog2/gelf-php": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Telemidia\\": "src/Telemidia/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thales Casa Grande de Lima",
+            "email": "cor@telemidia.net.br"
+        }
+    ]
+}
